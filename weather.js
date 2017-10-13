@@ -149,3 +149,4 @@ function createUrl() {
     urls[1] = 'https://api.map.baidu.com/telematics/v3/weather?output=json&ak=FK9mkfdQsloEngodbFl4FeY3&callback=getTodayWeather&location=' + encodeURI(cityName);
     return urls;
 }
+
